@@ -1,0 +1,339 @@
+/* Adding font Impact for cross-browsers */
+@font-face {
+  font-family: impact_mod;
+  src: url(./fonts/Impact.woff);
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .clear {
+  clear: both;
+} */
+
+/* .wrap {
+} */
+
+/* Navbar */
+
+.logo {
+  width: 255px;
+  /* height: 55px; */
+  margin-left: 5px;
+}
+
+.nav-item a {
+  color: #6f7172 !important;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-arrow {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+}
+
+.navbar-items2 {
+  margin-right: 60px;
+}
+.navbar-items2 a {
+  text-decoration: none;
+}
+
+.ul {
+  float: right;
+  margin-top: -10px;
+}
+
+.ul .li {
+  list-style: none;
+  font-size: 12px;
+  float: left;
+  border-right: 2px solid #ff4500;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.li1 {
+  border-right: none !important ;
+}
+.ul a {
+  color: black;
+}
+
+/* Carousel */
+
+/* Carousel Fixed Items */
+
+.carousel-heading {
+  z-index: 20;
+  position: absolute;
+  color: white;
+  /* padding-left: 62px; */
+  /* left: -3.7%; */
+  bottom: 135px;
+  /* font-size: 12px ; */
+}
+
+.carousel-cards {
+  z-index: 20;
+  position: absolute;
+  bottom: 100px;
+}
+
+.carousel-cards a {
+  text-decoration: none;
+}
+
+.card1-headline,
+.card2-headline,
+.card3-headline,
+.card4-headline {
+  color: white;
+  box-shadow: 0px 3px 13px -3px rgba(0, 0, 0, 0.5);
+  background-color: #ff4500;
+  padding: 2px;
+  margin: 3px;
+  height: 33px;
+  width: 150px;
+  text-align: center;
+}
+
+/* .card1-headline:hover {
+  box-shadow: 0px 3px 18px -3px black;
+} */
+
+.card3-headline {
+  width: 190px;
+}
+
+.card4-headline {
+  width: 230px;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+.carousel-indicators {
+  z-index: 25 !important;
+  padding-bottom: 20px;
+}
+
+.carousel-nav {
+  margin-right: 65px;
+  position: absolute;
+  right: 0;
+  z-index: 18;
+}
+
+.carousel-nav a {
+  border-right: solid 2px white;
+  color: white;
+  padding-right: 15px;
+  padding-left: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Carousel slide time */
+/* .carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.3s ease-in-out left !important;
+  -moz-transition: 0.3s ease-in-out left !important;
+  -o-transition: 0.3s ease-in-out left !important;
+  transition: 0.3s ease-in-out left !important;
+} */
+
+.carousel-inner > .item {
+  -webkit-transition: 0s !important;
+  -o-transition: 0s !important;
+  transition: 0s !important;
+}
+
+/* Carousel Slides */
+
+/* .carousel1, */
+.carousel2,
+.carousel3,
+.carousel4,
+.carousel5 {
+  background-color: #470463;
+  width: 100%;
+  height: 600px;
+}
+
+.carousel1 {
+  background: url(./resources/carousel1_1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  width: 100%;
+  height: 600px;
+}
+
+/* .carousel1-img {
+   width: 1640px;
+  height: 600px;
+}*/
+
+.carousel2-img {
+  width: 957px;
+  float: right;
+  height: 600px;
+}
+
+.carousel1-content,
+.carousel2-content,
+.carousel3-content,
+.carousel4-content,
+.carousel5-content {
+  position: absolute;
+  color: white;
+  top: 25%;
+  width: 100%;
+}
+
+.carousel1-content h1,
+.carousel2-content h1,
+.carousel3-content h1,
+.carousel4-content h1,
+.carousel5-content h1 {
+  font-size: 41px;
+  margin-top: -1px;
+  margin-bottom: -3px;
+  font-family: Impact, impact_mod;
+  /* padding-left: 40%; */
+  text-align: center;
+}
+
+.carousel2-img {
+  width: 957px;
+  float: right;
+  height: 600px;
+}
+.carousel3-img {
+  width: 957px;
+  float: right;
+  height: 600px;
+}
+
+.carousel4-img {
+  width: 957px;
+  float: right;
+  height: 600px;
+}
+
+.carousel5-img {
+  width: 957px;
+  float: right;
+  height: 600px;
+}
+
+.carousel-control-prev {
+  z-index: 15;
+}
+
+.carousel-control-next {
+  z-index: 18;
+}
+
+.prev-icon-size {
+  width: 30px;
+  height: 30px;
+}
+
+.next-icon-size {
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev-icon {
+  padding-left: -155px;
+}
+
+.carousel-control-next-icon {
+  padding-right: -155px;
+}
+
+/* Pages */
+
+.lorem {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 800px;
+}
+
+.space {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* Animation */
+
+/* .carousel1-content,
+.carousel2-content,
+.carousel3-content,
+.carousel4-content,
+.carousel5-content {
+  animation-duration: 0.5s;
+  animation-name: slidein5;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+
+@keyframes slidein5 {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+} */
+
+.carousel1-content h1,
+.carousel2-content h1,
+.carousel3-content h1,
+.carousel4-content h1,
+.carousel5-content h1 {
+  animation-duration: 0.5s;
+  animation-name: slidein6;
+  animation-delay: 3.8s;
+  animation-fill-mode: both;
+}
+
+@keyframes slidein6 {
+  from {
+    color: white;
+  }
+
+  to {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
